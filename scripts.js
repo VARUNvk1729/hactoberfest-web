@@ -1,8 +1,8 @@
-var id = setTimeout(
+const id = setTimeout(
   function () {
     $("#exampleModal").modal("show");
   },
-  5000 /// milliseconds = 5 seconds
+  3000 /// milliseconds = 5 seconds
 );
 
 document.getElementById("send-but").addEventListener("click", () => {
