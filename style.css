@@ -45,7 +45,7 @@ body {
 }
 .middle {
   position: relative;
-  background-color: rgb(168, 41, 41);
+  background-color: rgb(0 123 255 / 25%);
   padding: 140px;
   margin: 200px;
 }
@@ -53,7 +53,7 @@ body {
 img {
   width: 98%;
   border-radius: 5%;
-  border: 2px solid blue;
+  border: 2px solid white;
 }
 
 img:hover {
@@ -91,6 +91,9 @@ img:hover {
 }
 
 .Abhinav {
+  color: #31e1f7;
+}
+.jay {
   color: #31e1f7;
 }
 
