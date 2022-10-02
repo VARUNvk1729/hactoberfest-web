@@ -75,7 +75,6 @@ img:hover {
     hsl(98 100% 62%), 
     hsl(204 100% 59%)
   );
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
   
@@ -172,6 +171,7 @@ img:hover {
 
 .you {
   font-size: 30px;
+  
 }
 
 .gaurav {
@@ -264,4 +264,8 @@ img:hover {
 .anurag{
   color: #16C1D8;
   font-size: 48px;
+}
+.vg-1{
+  color:green;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
