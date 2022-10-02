@@ -81,7 +81,10 @@ img:hover {
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
-
+.aditya {
+  font-size: 5rem;
+  color: rgb(125, 322, 122);
+ }
 .you {
   font-size: 20px;
   font-style: italic;
