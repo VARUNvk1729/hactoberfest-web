@@ -67,6 +67,7 @@ img:hover {
 #Contribution {
   background-color: black;
   color: rgb(125, 122, 122);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .vishaaal {
@@ -75,7 +76,6 @@ img:hover {
     hsl(98 100% 62%), 
     hsl(204 100% 59%)
   );
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
   
@@ -84,6 +84,7 @@ img:hover {
 .you {
   font-size: 20px;
   font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Vishal {
@@ -99,9 +100,7 @@ img:hover {
   color: #31e1f7;
 }
 
-.you {
-  font-size: 30px;
-}
+
 
 .Shayanika{
   color: wheat;
