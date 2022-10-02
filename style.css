@@ -67,11 +67,17 @@ img:hover {
 #Contribution {
   background-color: black;
   color: rgb(125, 122, 122);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .vishaaal {
   background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
   -webkit-background-clip: text;
+  background: linear-gradient(
+    to right, 
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+  );
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
@@ -79,6 +85,7 @@ img:hover {
 .you {
   font-size: 20px;
   font-style: italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .Vishal {
@@ -88,14 +95,15 @@ img:hover {
 .Abhinav {
   color: #31e1f7;
 }
+.jay {
+  color: #31e1f7;
+}
 
 .Omkar {
   color: #31e1f7;
 }
 
-.you {
-  font-size: 30px;
-}
+
 
 .Shayanika {
   color: wheat;
@@ -170,6 +178,7 @@ img:hover {
 
 .you {
   font-size: 30px;
+  
 }
 
 .gaurav {
@@ -177,6 +186,10 @@ img:hover {
 }
 
 .anikkkkettt {
+  background-color: white;
+  color: black;
+}
+.dimpi {
   background-color: white;
   color: black;
 }
@@ -263,6 +276,11 @@ img:hover {
   color: #16c1d8;
   font-size: 48px;
 }
+.vg-1{
+  color:green;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 
 .SiddhantaDutta {
   /* font-family: 'Passions Conflict', cursive; */
