@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family:"super nova",cursive;
+  font-family: 'super nova', cursive;
   font-family: 'Source Sans Pro', sans-serif;
-  
+
   font-size: 30px;
   font-style: italic;
   background-image: linear-gradient(
@@ -71,6 +71,8 @@ img:hover {
 }
 
 .vishaaal {
+  background: linear-gradient(to right, hsl(98 100% 62%), hsl(204 100% 59%));
+  -webkit-background-clip: text;
   background: linear-gradient(
     to right, 
     hsl(98 100% 62%), 
@@ -78,7 +80,6 @@ img:hover {
   );
   -webkit-text-fill-color: transparent;
   text-align: center;
-  
 }
 
 .you {
@@ -98,18 +99,20 @@ img:hover {
   color: #31e1f7;
 }
 
-
 .Omkar {
   color: #31e1f7;
 }
 
 
 
-.Shayanika{
+.Shayanika {
   color: wheat;
 }
 .gaurav {
   color: white;
+}
+.zoheb {
+  color: salmon;
 }
 
 .anikkkkettt {
@@ -129,10 +132,11 @@ img:hover {
 }
 
 body {
-  font-family: "Nova Square", cursive;
+  font-family: 'Nova Square', cursive;
   font-size: 30px;
 }
-a,a:active{
+a,
+a:active {
   text-decoration: none;
   color: #fff;
 }
@@ -212,7 +216,7 @@ img:hover {
   font-style: bold;
 }
 
-.shrey{
+.shrey {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
   color: #6000c0;
@@ -224,17 +228,17 @@ img:hover {
 }
 
 .rahul {
-  font-family: "Oxygen Mono";
+  font-family: 'Oxygen Mono';
   font-size: 40px;
 }
 
 .average {
-  font-family: "Oxygen Mono";
+  font-family: 'Oxygen Mono';
   font-size: 40px;
 }
 
 .souptik {
-  font-family: "Oxygen Mono";
+  font-family: 'Oxygen Mono';
   font-size: 40px;
 }
 .Ayesha {
@@ -257,19 +261,19 @@ img:hover {
   text-decoration: underline;
 }
 
-.YashRajSingh{
+.YashRajSingh {
   color: red;
-  font-family: "Oxygen Mono";
+  font-family: 'Oxygen Mono';
   font-size: 45px;
- }
+}
 
- .sudhanshu {
+.sudhanshu {
   color: crimson;
   font-size: medium;
 }
 
-.anurag{
-  color: #16C1D8;
+.anurag {
+  color: #16c1d8;
   font-size: 48px;
 }
 .vg-1{
@@ -278,8 +282,7 @@ img:hover {
 }
 
 
-
-.SiddhantaDutta{
+.SiddhantaDutta {
   /* font-family: 'Passions Conflict', cursive; */
   font-weight: 600;
   font-size: 60px;
@@ -319,13 +322,13 @@ img:hover {
   top: 0;
   left: 0;
   user-select: none;
-  witdh:800px;
+  witdh: 800px;
 }
 
 .jt__text {
   display: block;
   transform-origin: bottom left;
-  animation: moveIn 2s 0s cubic-bezier(.36,0,.06,1) alternate infinite ;
+  animation: moveIn 2s 0s cubic-bezier(0.36, 0, 0.06, 1) alternate infinite;
 }
 .jt__row:nth-child(1) .jt__text {
   transform: translateY(-0.1em);
@@ -334,34 +337,32 @@ img:hover {
   transform: translateY(-0.3em) scaleY(1.1);
 }
 .jt__row:nth-child(3) .jt__text {
-  transform: translateY(-0.5em) scaleY(1.2) ;
+  transform: translateY(-0.5em) scaleY(1.2);
 }
 .jt__row:nth-child(4) .jt__text {
-  transform: translateY(-0.7em) scaleY(1.3) ;
+  transform: translateY(-0.7em) scaleY(1.3);
 }
 .jt__row:nth-child(5) .jt__text {
-  transform: translateY(-0.9em) scaleY(1.4) ;
+  transform: translateY(-0.9em) scaleY(1.4);
 }
 .jt__row:nth-child(6) .jt__text {
-  transform: translateY(-1.1em) scaleY(1.5) ;
+  transform: translateY(-1.1em) scaleY(1.5);
 }
 
 @keyframes moveIn {
-  50%, 100% { 
-    transform: translateY(0em)
+  50%,
+  100% {
+    transform: translateY(0em);
   }
-  0%   { 
-  opacity: 0; 
-  filter: blur(10px);
-  
+  0% {
+    opacity: 0;
+    filter: blur(10px);
   }
-  100% { 
-  opacity: 1; 
-  filter: blur(0px);
+  100% {
+    opacity: 1;
+    filter: blur(0px);
   }
 }
-
-
 
 .debug .jt__row:nth-child(even) {
   color: black;
@@ -372,9 +373,12 @@ img:hover {
   background: black;
 }
 
-* { box-sizing: border-box }
+* {
+  box-sizing: border-box;
+}
 
-html, body {
+html,
+body {
   margin: 0;
   background: black;
   color: tomato;
