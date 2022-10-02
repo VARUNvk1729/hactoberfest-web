@@ -1,4 +1,4 @@
-var id = setTimeout(
+let id = setTimeout(
   function () {
     $("#exampleModal").modal("show");
   },
